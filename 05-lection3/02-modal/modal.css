@@ -1,0 +1,49 @@
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--grey);
+    height: 100vh;
+}
+
+.model__inner {
+    width: 428px;
+    border-radius: 8px;
+    padding: 30px 40px 33px;
+    background: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 4px;
+    background: transparent;
+    border: none;
+}
+
+.modal__title {
+    font-family: Inter sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--blue-1);
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.model__text {
+    font-family: Inter sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--grey-4);
+}
