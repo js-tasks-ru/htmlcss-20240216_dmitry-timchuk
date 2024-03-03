@@ -10,7 +10,7 @@
     border-radius: 10px;
     padding: 13px 21px 8px;
     position: absolute;
-    top: calc(100% + 8px);
+    bottom: calc(100% + 12px);
     left: 50%;
     transform: translate(-50%);
     display: none;
@@ -19,9 +19,9 @@
 .tooltip__bubble:before {
     content: "";
     border: 10px solid transparent;
-    border-bottom-color: var(--blue-2);
+    border-top-color: var(--blue-2);
     position: absolute;
-    bottom: 100%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%) ;
 }
