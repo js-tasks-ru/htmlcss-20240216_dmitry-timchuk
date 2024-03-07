@@ -15,10 +15,6 @@
     margin-bottom: 20px;
 }
 
-.calendar__title p {
-    margin: 0;
-}
-
 .calendar__wrapper {
     position: relative;
     padding-bottom: 100%;
